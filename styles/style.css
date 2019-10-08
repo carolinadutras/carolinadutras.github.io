@@ -1,14 +1,17 @@
-a:hover{
+/* tentando fazer o hover funcionar mas sem sucesso */
+/* a:hover{
     text-decoration: none;
+} */
 
+.nav-detail:hover{
+    font-weight: 500!important;   
 }
+/* .a-nav-link:hover{
+    font-weight: 500!important;
+} */
 
 .bg-roxo{
     background-color: #7e459b;
-}
-
-a-nav-link:hover{
-    font-weight: 500!important;
 }
 
 .font span{
@@ -20,10 +23,7 @@ a-nav-link:hover{
     height: 60vh;
     object-position: 0 35%;
 }
-/* 
-.cor-nav :hover{
-    font-weight: 500!important;
-} */
+
 .social-medias span{
     color:black;
     
@@ -37,4 +37,13 @@ a-nav-link:hover{
     font-weight: 500;
     color: #7e459b;
 
+}
+
+.text-color{
+    color: #ffffff
+}
+
+.habilits {
+font-size: 30px;
+color: #ffffff;
 }
