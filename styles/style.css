@@ -1,7 +1,7 @@
 /* tentando fazer o hover funcionar mas sem sucesso */
-/* a:hover{
+a:hover{
     text-decoration: none;
-} */
+}
 
 .nav-detail:hover{
     font-weight: 500!important;   
@@ -44,6 +44,28 @@
 }
 
 .habilits {
-font-size: 30px;
+font-size: 2rem;
 color: #ffffff;
+}
+
+.tamanho-card{
+
+width: 18rem;
+
+}
+/* .tamanho-card img{
+height: 100vh;
+} */
+.img-cards{
+    object-fit: cover;
+    height: 40vh;
+    object-position: top;
+
+}
+.img-cards-modal{
+    object-fit: cover;
+    width: 35vw;
+    height: 100vh;
+    object-position: top;
+
 }
