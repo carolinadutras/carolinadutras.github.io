@@ -1,10 +1,13 @@
 /* tentando fazer o hover funcionar mas sem sucesso */
 a:hover{
     text-decoration: none;
+
+    /* font-weight: 500 !important;        */
 }
 
 .nav-detail:hover{
-    font-weight: 500!important;   
+    font-weight: 800 !important;  
+    color: #ffffff; 
 }
 /* .a-nav-link:hover{
     font-weight: 500!important;
@@ -68,4 +71,9 @@ height: 100vh;
     height: 100vh;
     object-position: top;
 
+}
+
+.color-reprograma:hover{
+    color: #7e459b;
+    opacity: .5;
 }
